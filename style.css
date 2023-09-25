@@ -1,0 +1,628 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* style for the 1 page */
+
+.page-1{
+    position: relative;   
+    height: 100vh;
+}
+
+#image-1{
+    position: absolute;
+    max-width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+#image-2{
+    position: absolute;
+    max-width: 100%;
+    height: 80vh;
+    z-index: 2;
+
+    right: 250px;
+    top:100px;
+}
+
+.checkMark{
+    position: absolute;
+    z-index: 3;
+    top: 25%;
+    left: 19%;
+    border: 1px solid #e2eaed;
+    background-color: #e2eaed;
+    border-radius: 35px;
+    height: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 40px;
+    margin-right: 20px;
+}
+
+
+#img-3{
+    position: absolute;
+    z-index: 4;
+    top: 0%;
+    left: 0%;
+    border: 4px solid orange;
+    background-color: orange;
+    border-radius: 50%;
+    height: 3vh;
+}
+
+.title-1{
+    position: absolute;
+    z-index: 3;
+    top: 33%;
+    left: 19%;
+    font-size: xx-large;
+    font-weight: 900;
+    font-size: 40px;
+    margin-right: 800px;
+}
+
+.text-1{
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    left: 19%;
+    font-size: 15px;
+    margin-right: 700px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-1 {
+    position: absolute;
+    z-index: 3;
+    top: 70%;
+    left: 19%;
+}
+
+.leftButton,.rightButton {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.leftButton {
+    border: 1px solid #2500f9;
+    background-color: #2500f9;
+    border-radius: 35px;
+    color:white;
+    padding: 5px 40px ;
+}
+
+.rightButton{
+    color:#2500f9;
+}
+
+/* style for the 2 page */
+
+.text-2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.pictures{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.image-container { 
+    padding-left: 200px;
+}
+
+#image-4 {
+    max-height: 90vh; 
+    width: auto;
+    padding-right: 100px;
+}
+
+.text-container {
+    padding-left: 0px;
+}
+
+.text-3{
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.text-4{
+    display: flex;
+}
+
+.text-5{
+    display: flex;
+    padding-top: 50px;
+}
+
+.text-6{
+    display: flex;
+    padding-top: 50px;
+}
+
+#imageX{
+    max-height: 7vh; 
+    width: auto;
+    padding-right: 15px;
+}
+
+.title-2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.title-3{
+    color:red;
+}
+
+.title-4{
+    color:blue;
+}
+
+.title-5{
+    color:green;
+}
+
+/* style for the 3 page */
+
+.title-6{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.text-7{
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.text-8{
+    padding-left:0;
+    font-size: 12px;
+    margin-right: 200px;
+    margin-left: 50px;
+    
+}
+
+.line{
+    border:1px solid gray;
+    opacity: 0.1;
+    height: 10hv;
+    width: auto;
+}
+
+.picture-3{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.title-7{
+    color:red
+}
+
+.title-8{
+    color:blue;
+}
+
+.title-9{
+    color:green
+}
+
+.block-1{
+    padding-left: 150px;
+}
+
+.block-2{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.block-3{
+    padding-right: 150px;
+}
+
+.someText-2{
+    padding-top: 10px;
+}
+
+#imageY{
+    padding-bottom: 10px;
+}
+
+.block-4{
+    display: flex;
+    justify-content: center;
+}
+
+.image-5 {
+    display: flex;
+}
+
+#image-6{
+    max-height: 70vh; 
+    width: auto;
+    padding-left: 200px;
+}
+
+.lvl{
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 400px;
+    padding-bottom: 25px;
+}
+
+.main{
+    color:white;
+    border: 1px solid #2500f9;
+    background-color: #2500f9;
+    border-radius: 35px;
+    color:white;
+    padding: 10px 40px ;
+    margin-right: 366px;
+
+
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-10{
+    padding-left: 100px;
+}
+
+.someText-3{
+    padding-right:300px;
+    padding-bottom: 25px;
+}
+
+.leftButton,.rightButton,.main:hover {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.hoverInfo{
+    padding-top: 15px;
+    display: none;
+}
+
+/* style for the 4 page */
+
+.titleBlock{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-11{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.someText-4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button-3{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(152, 151, 151);
+    border-radius: 35px;
+    margin-left: 590px;
+    margin-right: 590px;
+    padding-right: px;
+    cursor: pointer;
+}
+
+.leftButton-1{
+    background-color: #2500f9;
+    color:white;
+    border: 1px solid #2500f9;;
+    border-radius: 35px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.rightButton-1{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bigBox{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.build-1{
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px 0px 15px 0px rgb(240, 240, 240);
+    height: 65vh;
+    width: 35vh;
+    margin-right: 70px;
+}
+
+.build-2{
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px 0px 15px 0px rgb(240, 240, 240);
+    height: 65vh;
+    width: 35vh;
+    margin-left: 70px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-weight: 900;
+}
+
+.for{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    opacity: 0.5;
+}
+
+.topLvl-1{
+    border: 1px solid black;
+    height: 30vh;
+
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px 0px 15px 0px rgb(240, 240, 240);
+    transition: 1s;
+  
+
+}
+
+.topLvl-2{
+    border: 1px solid black;
+    height: 30vh;
+    border: 1px solid rgb(240, 240, 240);
+  box-shadow: 0px 0px 15px 0px rgb(240, 240, 240);
+  
+
+}
+
+.plus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.description{
+    padding-top: 10px;
+    opacity: 0.5;
+}
+
+.mon{
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.time{
+    padding-top: 30px;
+    padding-left: 5px;
+    opacity: 0.5;
+}
+
+.button-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    border: 1px solid #2500f9;
+    border-radius: 35px;
+
+    margin-left: 500px;
+    margin-right: 500px;
+    cursor: pointer;
+}
+
+.leftButton-1 {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #2500f9;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.rightButton-1 {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color:black;
+    background-color: white;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.button-3.active .leftButton-1 {
+    background-color: white;
+    color: #2500f9;
+}
+
+.button-3.active .rightButton-1, .button-3{
+    background-color: #2500f9;
+    color: white;
+}
+
+.button-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    border: 1px solid #2500f9;
+    background-color: #2500f9;
+    margin-left: 36px;
+    margin-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 35px; 
+    cursor: pointer;
+}
+
+.trial{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #2500f9;
+}
+
+.build-1.active, .build-2.active {
+    box-shadow: 0px 0px 15px 0px rgb(74, 74, 74); 
+}
+
+
+/* style for the 5 page */
+
+.dowl{
+    padding-top: 150px;
+}
+
+.containers{
+    display: flex;
+}
+
+.title-12{
+    font-size: 900;
+    font-size: 42px;
+}
+
+.someText-5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+}
+
+.ten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rightImage{
+    height: 50vh;
+    width: auto;
+
+}
+
+.someImg{
+    display: flex;
+    justify-content:space-around;
+}
+
+#google-play{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#app-store{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(10, 13, 42);
+    height: 50vh;
+    width: auto;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appLab{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.App{
+    color:white;
+}
+
+.lab{
+    color:orange
+}
+
+.smoleBlock{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    color:white
+    
+}
+
+.some1{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.some2{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.some3{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.some4{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.footerIcons{
+    cursor: pointer;
+}
